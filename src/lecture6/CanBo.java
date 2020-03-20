@@ -10,6 +10,16 @@ public class CanBo {
     public CanBo(){
     }
 
+    public CanBo(String hoTen) {
+        this.hoTen = hoTen;
+    }
+
+
+    public CanBo(String hoTen, int age) {
+        this.hoTen = hoTen;
+        this.tuoi = age;
+    }
+
     public String getHoTen() {
 
         return hoTen;
@@ -48,5 +58,11 @@ public class CanBo {
     public void setDiaChi(String diaChi) {
 
         this.diaChi = diaChi;
+    }
+
+    @Override
+    public String toString() {
+        return "CanBo{" +
+                "hoTen='" + hoTen + "}";
     }
 }
