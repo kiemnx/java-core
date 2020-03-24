@@ -63,6 +63,8 @@ public class CanBo {
     @Override
     public String toString() {
         return "CanBo{" +
-                "hoTen='" + hoTen + "}";
+                "hoTen='" + hoTen + '\'' +
+                ", tuoi=" + tuoi +
+                '}';
     }
 }

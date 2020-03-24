@@ -7,7 +7,7 @@ public class Exersice3 {
     {
 
         int[] array = new int[10];
-        int[] newArray = new int[9];
+        int[] newArray = new int[11];
         for(int i = 0; i< array.length ; i ++){
             newArray[i] = array[i];
         }
