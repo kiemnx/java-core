@@ -1,0 +1,2 @@
+This is example about reading file.
+This is second lines
