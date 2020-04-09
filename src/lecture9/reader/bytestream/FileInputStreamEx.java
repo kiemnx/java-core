@@ -9,10 +9,13 @@ public class FileInputStreamEx {
         try {
             fin = new FileInputStream("/home/kiemnx/project/plus/plusplus/file.txt");
             int i = 0;
-            while ((i = fin.read()) != -1) {
+            while (true) {
+                i = fin.read();
+                if(i == -1){
+                    break;
+                }
                 System.out.print((char) i);
             }
-            fin.close();
         } catch (Exception e) {
             System.out.println(e);
         } finally {

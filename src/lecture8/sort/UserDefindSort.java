@@ -29,10 +29,11 @@ public class UserDefindSort {
         Collections.sort(canBos, new Comparator<CanBo>() {
             @Override
             public int compare(CanBo o1, CanBo o2) {
-                return 0;
+                return o1.getTuoi() > o2.getTuoi() ? -1 : 1;
             }
         });
-        /*List<String> nameList = canBos.stream().map(e -> e.getHoTen()).collect(Collectors.toList());*/
-        System.out.println(nameList);
+        for(CanBo cb : canBos){
+            System.out.println(cb.toString());
+        }
     }
 }

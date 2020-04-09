@@ -12,7 +12,8 @@ public class BufferedOutputStreamExample {
         try {
             fout = new FileOutputStream("/home/kiemnx/project/plus/plusplus/fileout.txt");
             bout = new BufferedOutputStream(fout);
-            bout.write(66);
+            byte[] bytes = {65,66,67};
+            bout.write(bytes);
             bout.flush();
             System.out.println("success...");
         } catch (Exception e) {

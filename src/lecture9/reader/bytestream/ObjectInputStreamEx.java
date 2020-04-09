@@ -10,9 +10,9 @@ public class ObjectInputStreamEx {
         try {
             oos = new ObjectOutputStream(new FileOutputStream("/home/kiemnx/project/plus/plusplus/phim.txt"));
             // create phim
-            Phim student = new Phim("End Game", "https://phimmoi.net/sss", "https://avatar.com");
+            Phim phim = new Phim("End Game", "https://phimmoi.net/sss", "https://avatar.com");
             // write phim
-            oos.writeObject(student);
+            oos.writeObject(phim);
             System.out.println("Success...");
         } catch (IOException ex) {
             ex.printStackTrace();
@@ -24,9 +24,9 @@ public class ObjectInputStreamEx {
         try {
             ois = new ObjectInputStream(new FileInputStream("/home/kiemnx/project/plus/plusplus/phim.txt"));
             // read phim
-            Phim student = (Phim) ois.readObject();
+            Phim phim = (Phim) ois.readObject();
             // show phim
-            System.out.println(student.toString());
+            System.out.println(phim.toString());
         } catch (ClassNotFoundException ex) {
             ex.printStackTrace();
         } catch (IOException ex) {

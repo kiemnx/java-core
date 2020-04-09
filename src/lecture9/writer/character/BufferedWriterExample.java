@@ -5,8 +5,8 @@ import java.io.FileWriter;
 
 public class BufferedWriterExample {
     public static void main(String[] args) throws Exception {
-        FileWriter writer = new FileWriter("/home/kiemnx/project/plus/plusplus/fileout.txt");
-        BufferedWriter buffer = new BufferedWriter(writer);
+        FileWriter writer = new FileWriter("/home/kiemnx/project/plus/plusplus/fileout.txt", true);
+        BufferedWriter buffer = new BufferedWriter(writer, 1);
         buffer.write("This is first line");
         buffer.newLine();
         buffer.write("This is second line");
