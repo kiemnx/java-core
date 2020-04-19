@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="advance.javaswing.jfrom.designer.TestForm">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="695" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="55658" class="javax.swing.JTextField" binding="name">
+        <constraints border-constraint="North"/>
+        <properties>
+          <text value="Nhap vao username"/>
+        </properties>
+      </component>
+      <grid id="da121" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="76b78" class="javax.swing.JButton" binding="buttonYes">
+            <constraints/>
+            <properties>
+              <text value="Yes"/>
+            </properties>
+          </component>
+          <component id="88b2" class="javax.swing.JButton" binding="buttonNo">
+            <constraints/>
+            <properties>
+              <text value="No"/>
+            </properties>
+          </component>
+          <component id="6268" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="2948b" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="94b61" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Email"/>
+            </properties>
+          </component>
+          <component id="59057" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="e67ab" class="javax.swing.JTextPane" binding="textPane1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="7e479" class="javax.swing.JTable" binding="table2" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+          <splitpane id="ba5a8">
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </splitpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
