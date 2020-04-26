@@ -4,6 +4,7 @@ public class Student {
     // ten, tuoi, mssv, gioi_tinh
     private String ten;
     private int tuoi;
+    private long money;
     private String mssv;
     private String gioiTinh;
 
