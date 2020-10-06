@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2020-10-06T09:18:45.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" version="13.7.7" etag="stVTUFUNNON9g7_7rqPM" type="github"><diagram id="nZv6JusGKzzZrfUpjDux">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-06T09:37:26.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="OyddVeemC9P55EkMPE1h" version="13.7.7" type="github">
+  <diagram id="nZv6JusGKzzZrfUpjDux" name="Page-1">
+    <mxGraphModel dx="981" dy="548" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-2" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-4" value="Git Repository" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="150" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-6" value="Kiem PC" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="170" y="340" width="52.98" height="71.8" as="geometry" />
+        </mxCell>
+        <UserObject label="https://github.com/kiemnx/java-core-1006.git" link="https://github.com/kiemnx/java-core-1006.git" id="8m8Es6FKNtpTDH-OV7k8-7">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="450" y="155" width="260" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-8" value="" style="endArrow=classic;html=1;exitX=0.4;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8m8Es6FKNtpTDH-OV7k8-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="220" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-9" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=10;dy=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="340" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-10" value="java-core-1006&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;src&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;data&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350.9" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-11" value="Hai PC" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="530" y="329.1" width="52.98" height="71.8" as="geometry" />
+        </mxCell>
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-12" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=10;dy=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="325" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-13" value="java-core-1006&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;src&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;data&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="335.9" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-14" value="" style="endArrow=classic;html=1;entryX=0.283;entryY=-0.071;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8m8Es6FKNtpTDH-OV7k8-4" target="8m8Es6FKNtpTDH-OV7k8-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="193" as="sourcePoint" />
+            <mxPoint x="580" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-15" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;git clone&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;git pull&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;git checkout BRANCH&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="250" y="260" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-16" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;git clone&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;git pull&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;git checkout BRANCH&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-17" value="" style="endArrow=classic;html=1;exitX=0.132;exitY=-0.07;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.235;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="1" source="8m8Es6FKNtpTDH-OV7k8-6" target="8m8Es6FKNtpTDH-OV7k8-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="400" as="sourcePoint" />
+            <mxPoint x="440" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-19" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;git add&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;git commit -m &quot;Message&quot;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;git push&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8m8Es6FKNtpTDH-OV7k8-20" value="cần có quyền đẩy code lên" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=0;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="75" y="218" width="120" height="44" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
