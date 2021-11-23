@@ -13,6 +13,9 @@ public class Lesson1 {
         int a = scanner.nextInt();
         System.out.println("So ban vua nhap la: " + a);
 
+        int b = a + 10;
+        System.out.println("So ban vua nhap cong them 10 la: " + b);
+
     }
 
     private int sum(int a, int b){
